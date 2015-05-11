@@ -1,0 +1,38 @@
+.idList {
+    display: 'inline-block'
+};
+
+.messageList {
+    height: '150px',
+    width: '150px',
+    overflow: 'auto',
+    wordwrap: 'break-word'
+};
+
+.title {
+    border: '2px solid black',
+    padding: '1px, 1px, 1px',
+    overflow: 'hidden'
+};
+
+.button {
+    border: 0,
+    float: 'right'
+};
+
+.messageForm {
+    border: '2px solid black',
+    padding: '0px 0px 0px',
+    display: 'inline-block'
+};
+
+.input {
+    width: '100%',
+    float: 'bottom'
+};
+
+.login {
+    border: '2px solid black',
+    padding: '15px 20px 0px',
+    display: 'inline-block'
+};

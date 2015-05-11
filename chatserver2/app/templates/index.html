@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>Hello React</title>
+    <script src="https://fb.me/react-0.13.2.js"></script>
+    <script src="https://fb.me/JSXTransformer-0.13.2.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.16/socket.io.min.js"></script>
+    <link rel="stylesheet" href="{{url_for('static', filename='./css/style.css')}}">
+  </head>
+  <body>
+    <h1> Chat Server </h1>
+    <div id="chatApp"></div>
+    <script src="{{url_for('static', filename='./js/react.js')}}" type="text/jsx"></script>
+  </body>
+</html>
